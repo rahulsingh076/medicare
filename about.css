@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    box-shadow: 0.5rem 1rem rgba(16, 53, 48, 0.1);width: 100%;
+    width: 100%;
+    height: 90px;
+}
+.Header a{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: 60vh;
+
+}
+.container{
+    font-style: italic;
+    font-family:sans-serif;
+    position:absolute;
+    left:40%;
+    top: 17%;
+
+}
+.container p{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+}
+.about h1{
+    font: 3em sans-serif;
+}
+.about p{
+    font: 20px sans-serif;
+}
+.list{
+    position: absolute;
+    top:90%;
+    left: 35%;
+}
+.list p{
+    font-family: sans-serif;
+    font-size: 2em;
+}
+

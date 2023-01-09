@@ -1,0 +1,66 @@
+*{
+    margin:0%;
+    padding:0%;
+
+}
+body {font-family:sans-serif;}
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 10px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:2;
+}
+.cancelbtn {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 10px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  }
+  cancelbtn:hover {
+    opacity:2;
+  }
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 15%;
+  position: relative;
+  left: 17%; 
+}
+.container {
+  position: absolute;
+  top: 30vh;
+  left: 60vh;
+  right: 20vh;
+  padding: 16px;
+}
+
+

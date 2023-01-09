@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0.5rem 1rem rgba(16, 53, 48, 0.1);width: 100%;
+    width: 100%;
+    height: 90px;
+}
+.Header a i{
+    color: #2e4450;
+    font-size: 35px;
+}
+
+.Header a{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: 60vh;
+
+}
+.image{
+    border-radius: 8px;
+    width:700px;
+    position:absolute;
+    top: 17%;
+    left: 50%;
+}
+.container{
+    font-family:sans-serif;
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    
+}
+.container h1{
+    font-style: bold;
+
+}
+.container p{
+    
+    font-style:bold,italic;
+    position: absolute;
+    top:125%;
+    left: 25%;
+
+}
+.list ul{
+    
+    position: absolute;
+    top:37vh;
+    
+}
+.container h2{
+
+    font-style:bold,italic;
+    position: absolute;
+    top: 33vh;
+}
